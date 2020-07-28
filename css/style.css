@@ -137,9 +137,63 @@ body {
 
 #area-contatti {
     height: calc(100% - 190px);
-    background-color: lightblue;
+    background-color: #ffffff;
     overflow: scroll;
 }
+
+.messaggio {
+    height: 80px;
+    border-bottom: 1px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.img-msg {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.img-msg img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.text-msg {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-msg h3 {
+    font-size: 16px;
+    color: #181818;
+}
+
+.text-msg p {
+    font-size: 13px;
+    color: #c1c1c1;
+}
+
+.h-msg {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.h-msg p {
+    font-size: 11px;
+    color: #c1c1c1;
+}
+
+
 
 /* sezione dx */
 #area-dx {
