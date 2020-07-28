@@ -13,6 +13,7 @@
 body {
     background-color: #DBDBD3;
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,41 +31,93 @@ body {
 #area-sx {
     background-color: red;
     height: 100%;
-    width: 300px;
+    width: 400px;
 }
 
 #area-profilo,
 #intestazione {
-    height: 80px;
-    background-color: lightgreen;
-    border: 1px solid black;
+    height: 60px;
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+#area-profilo {
+    border-right: 1px solid lightgrey;
+}
+
+#area-profilo img {
+    height: 45px;
+    border-radius: 50%;
+}
+
+#icone-profilo i {
+    font-size: 20px;
+    color: #B1B1B1;
+    padding: 0 5px;
 }
 
 #area-notifiche {
     height: 80px;
-    background-color: yellow;
+    background-color: #8EDAFB;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 15px;
+}
+
+#cerchio-notifica {
+    border-radius: 50%;
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testo-ntf {
+    padding-left: 20px;
+}
+
+#testo-ntf h3 {
+    font-size: 14px;
+    color: #2E344E;
+}
+
+#testo-ntf p {
+    font-size: 12px;
+    color: #7a7a7a;
+    text-decoration: underline;
+}
+
+#cerchio-notifica i {
+    font-size: 20px;
+    color: #8EDAFB;
 }
 
 #ricerca {
     height: 50px;
-    background-color: orange;
+    background-color: #FAFAFA;
 }
 
 #area-contatti {
-    height: calc(100% - 210px);
+    height: calc(100% - 190px);
     background-color: lightblue;
     overflow: scroll;
 }
 
 /* sezione dx */
-#area-messaggio {
+#area-dx {
     background-color: green;
     height: 100%;
-    width: calc(100% - 300px);
+    width: calc(100% - 400px);
 }
 
 #area-chat {
-    height: calc(100% - 160px);
+    height: calc(100% - 140px);
     overflow: scroll;
     background-color: yellow;
 }
