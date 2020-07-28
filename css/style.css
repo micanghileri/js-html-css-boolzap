@@ -24,12 +24,10 @@ body {
     height: calc(100% - 60px);
     width: 1100px;
     display: flex;
-    max-width: 1200px;
 }
 
 /* sezione sx */
 #area-sx {
-    background-color: red;
     height: 100%;
     width: 400px;
 }
@@ -193,8 +191,6 @@ body {
     color: #c1c1c1;
 }
 
-
-
 /* sezione dx */
 #area-dx {
     background-color: green;
@@ -203,12 +199,36 @@ body {
 }
 
 #area-chat {
-    height: calc(100% - 140px);
+    height: calc(100% - 130px);
     overflow: scroll;
-    background-color: yellow;
+    background-image: url("https://www.bbadv.it/wp-content/uploads/2020/06/bbadv-header-whatsapp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(0.3);
+    filter: brightness(0.5);
 }
 
 #area-insert {
-    height: 80px;
-    background-color: red;
+    height: 70px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#area-insert i {
+    font-size: 25px;
+    color: #6B7376;
+}
+
+#area-insert input {
+    width: 550px;
+    height: 70%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0 20px;
+    margin: 0 20px;
 }
