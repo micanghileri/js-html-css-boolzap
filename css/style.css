@@ -151,6 +151,16 @@ body {
     padding: 0 20px;
 }
 
+.messaggio:hover:not(.msg-active) {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.msg-active {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
 .img-msg {
     height: 100%;
     width: 20%;
