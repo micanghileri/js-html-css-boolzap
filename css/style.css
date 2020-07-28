@@ -193,7 +193,6 @@ body {
 
 /* sezione dx */
 #area-dx {
-    background-color: green;
     height: 100%;
     width: calc(100% - 400px);
 }
@@ -205,8 +204,75 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(0.3);
-    filter: brightness(0.5);
+    padding: 20px 40px;
+}
+
+.mio-zone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.suo-zone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.msg-mio {
+    border-radius: 10px;
+    background-color: #D5F9BB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 21px 15px;
+    margin: 8px 0;
+    z-index: 2;
+}
+
+.msg-altro {
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 21px 15px;
+    margin: 8px 0;
+    z-index: 2;
+}
+
+.msg-mio img,
+.msg-altro img {
+    width: 300px;
+}
+
+.quadrato-bianco {
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    background-color: #ffffff;
+    position: absolute;
+    left: -4px;
+    top: 8px;
+    z-index: 1;
+}
+.quadrato-verde {
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    background-color: #D5F9BB;
+    position: absolute;
+    right: -4px;
+    top: 8px;
+    z-index: 1;
+}
+
+.ora-msg {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 10px;
+    color: #a3a7a1;
 }
 
 #area-insert {
