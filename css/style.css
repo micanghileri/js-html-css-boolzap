@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: #DBDBD3;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#area-app {
+    background-color: white;
+    height: calc(100% - 60px);
+    width: 1000px;
+    display: flex;
+    max-width: 1200px;
+}
+
+/* sezione sx */
+#area-sx {
+    background-color: red;
+    height: 100%;
+    width: 300px;
+}
+
+#area-profilo,
+#intestazione {
+    height: 80px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+#area-notifiche {
+    height: 80px;
+    background-color: yellow;
+}
+
+#ricerca {
+    height: 50px;
+    background-color: orange;
+}
+
+#area-contatti {
+    height: calc(100% - 210px);
+    background-color: lightblue;
+    overflow: scroll;
+}
+
+/* sezione dx */
+#area-messaggio {
+    background-color: green;
+    height: 100%;
+    width: calc(100% - 300px);
+}
+
+#area-chat {
+    height: calc(100% - 160px);
+    overflow: scroll;
+    background-color: yellow;
+}
+
+#area-insert {
+    height: 80px;
+    background-color: red;
+}
