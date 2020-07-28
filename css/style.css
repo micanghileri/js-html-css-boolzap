@@ -22,7 +22,7 @@ body {
 #area-app {
     background-color: white;
     height: calc(100% - 60px);
-    width: 1000px;
+    width: 1100px;
     display: flex;
     max-width: 1200px;
 }
@@ -41,7 +41,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 #area-profilo {
@@ -65,7 +65,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 #cerchio-notifica {
@@ -79,7 +79,7 @@ body {
 }
 
 #testo-ntf {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #testo-ntf h3 {
@@ -101,6 +101,38 @@ body {
 #ricerca {
     height: 50px;
     background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont-ricerca {
+    height: 75%;
+    width: 97%;
+    border: 1px solid #f4f4f4;
+    border-radius: 2px;
+    padding: 0 15px;
+    background-color: white;
+}
+
+#cont-ricerca i {
+    color: #B6B9BF;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#ricerca input {
+    width: 93%;
+    height: 100%;
+    color: #ece8e8;
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#ricerca input::placeholder {
+    color: #ece8e8;
 }
 
 #area-contatti {
