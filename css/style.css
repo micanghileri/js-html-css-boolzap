@@ -233,18 +233,6 @@ body {
     padding: 20px 40px;
 }
 
-.mio-zone {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.suo-zone {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 .msg-mio {
     border-radius: 10px;
     background-color: #D5F9BB;
@@ -255,6 +243,8 @@ body {
     margin: 8px 0;
     z-index: 2;
     font-size: 13px;
+    float: right;
+    clear: both;
 }
 
 .msg-altro {
@@ -267,6 +257,15 @@ body {
     margin: 8px 0;
     z-index: 2;
     font-size: 13px;
+    float: left;
+    clear: both;
+}
+
+.message {
+    border-radius: 10px;
+    width: auto;
+    padding: 10px 15px 21px 15px;
+    margin: 8px 0;
 }
 
 .msg-mio img,
