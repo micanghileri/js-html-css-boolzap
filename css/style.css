@@ -28,6 +28,7 @@ body {
     display: flex;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0 0 50px #858585;
 }
 
 /* sezione sx */
@@ -226,11 +227,12 @@ body {
 #area-chat {
     height: calc(100% - 130px);
     overflow: scroll;
-    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-image: url("https://lh3.googleusercontent.com/SZ97RCEv5EVH6iMCDIdHeGJM_BNyHYcnRQ4EdK4V_VyVxLlQS8GY1U3xB8atEBH55OM");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px 40px;
+    background-color: #000000;
+    padding: 20px 50px;
 }
 
 .msg-mio {
@@ -245,6 +247,8 @@ body {
     font-size: 13px;
     float: right;
     clear: both;
+    max-width: 300px;
+    height: auto;
 }
 
 .msg-altro {
@@ -259,6 +263,8 @@ body {
     font-size: 13px;
     float: left;
     clear: both;
+    max-width: 300px;
+    height: auto;
 }
 
 .message {
@@ -270,7 +276,7 @@ body {
 
 .msg-mio img,
 .msg-altro img {
-    width: 300px;
+    width: 100%;
     border-radius: 5px;
 }
 
