@@ -50,7 +50,17 @@ body {
     border-right: 1px solid lightgrey;
 }
 
-#area-profilo img {
+#dati-profilo {
+    display: flex;
+    align-items: center;
+}
+
+#text-data {
+    margin-left: 10px;
+}
+
+#area-profilo img,
+#intestazione img {
     height: 45px;
     border-radius: 50%;
 }
@@ -182,12 +192,14 @@ body {
     justify-content: center;
 }
 
-.text-msg h3 {
+.text-msg h3,
+#dati-profilo h3 {
     font-size: 16px;
     color: #181818;
 }
 
-.text-msg p {
+.text-msg p,
+#dati-profilo p {
     font-size: 13px;
     color: #c1c1c1;
 }
